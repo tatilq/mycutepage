@@ -1,0 +1,136 @@
+
+body
+{
+	font-family: 'Clicker Script', cursive;
+	font-size: 20px;
+	margin: 0px;
+}
+/*Parte de la cabecera */
+header {
+	color:black;
+	padding: 20px 0 20px 0;
+	background-image: url(../images/tile2.png);
+}
+.encabezado a
+{
+	text-decoration: none;
+	color: black;
+	color:#A849B2;
+}
+.encabezado a:hover
+{
+	font-size: 25px;
+	color: #2EBCC5;
+}
+.encabezado ul
+{
+	text-align: center;
+}
+.encabezado li
+{
+	list-style: none;
+	display: inline;
+	margin: 30px;
+}
+/*parte de hero section d enombre y frase*/
+.presentacion
+{
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 400px;
+	text-align: center;
+	color: white;
+}
+.presentacion img
+{
+	position: relative;
+	top: 80px;
+}
+.presentacion p
+{
+	margin-top: 80px;
+	font-size: 40px;
+	color: #2EBCC5
+}
+.presentacion small
+{
+	margin-top: 100px;
+	font-size: 20px;
+	color:#E0C8E3;
+}
+/*Esta es la seccion de Biografia*/
+section
+{
+	background-image: url(../images/tile1.png);
+
+}
+.biografia
+{
+	padding: 50px 200px;
+
+}
+.bio_content
+{
+	overflow: auto;
+}
+.biografia h3 , .favoritos h3 
+{
+	text-align: center;
+	color: #2EBCC5;
+	font-size: 30px;
+}
+.biografia img
+{
+	width: 180px;
+	height: 180px;
+	margin-right: 20px;
+	float: left;
+	border:2px outset #A205B4;
+	padding: 3px;
+ }
+.favoritos 
+{
+	clear: both;
+	text-align: center;
+}
+.favoritos li  , .redes li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+.favoritos small
+{
+	color: #A849B2;
+	font-size: 20px;
+}
+
+.favoritos img
+{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #2EBCC5;
+    padding: 5px;
+	border-radius: 100%;
+	margin:10px;	
+}
+footer {
+
+	background-image: url(../images/tile2.png);
+	padding: 30px;
+	font-family: 'Clicker Script', cursive;
+}
+.redes
+{
+	text-align: center;
+}
+.redes img
+{
+	margin-right: 10px;
+}
+.redes p
+{
+	color: #2EBCC5;
+	font-size: 30px;
+}
