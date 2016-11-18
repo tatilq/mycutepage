@@ -1,26 +1,32 @@
 
 body
 {
-	font-family: 'Clicker Script', cursive;
-	font-size: 20px;
-	margin: 0px;
+	font-family: 'Pacifico', cursive;
+	font-size: 17px;	
 }
 /*Parte de la cabecera */
-header {
-	color:black;
+header 
+{
+	background-color:#ccc;
+	background-image: -moz-linear-gradient(top, #333, #ccc);
+	background-image: -webkit-gradient(linear, left top,left bottom, from(#333), to(#ccc));
+	background-image: linear-gradient(top, #333, #ccc);
 	padding: 20px 0 20px 0;
-	background-image: url(../images/tile2.png);
+	position: fixed;
+	width: 100%;
+	clear: both;
 }
 .encabezado a
 {
 	text-decoration: none;
-	color: black;
-	color:#A849B2;
+	color:white;
 }
 .encabezado a:hover
 {
-	font-size: 25px;
-	color: #2EBCC5;
+	
+	color: #2A033E;
+	font-size: 40px;
+	
 }
 .encabezado ul
 {
@@ -30,7 +36,7 @@ header {
 {
 	list-style: none;
 	display: inline;
-	margin: 30px;
+	margin: 35px;
 }
 /*parte de hero section d enombre y frase*/
 .presentacion
@@ -38,14 +44,16 @@ header {
 	background-image: url(../images/background.jpg);
 	background-size: cover;
  	background-repeat: no-repeat;
- 	height: 400px;
+ 	height: 500px;
 	text-align: center;
 	color: white;
+
 }
 .presentacion img
 {
 	position: relative;
-	top: 80px;
+	top: 150px;
+
 }
 .presentacion p
 {
@@ -62,37 +70,67 @@ header {
 /*Esta es la seccion de Biografia*/
 section
 {
-	background-image: url(../images/tile1.png);
-
+	
+	overflow: auto;
+	background: rgba(120,100,80,0.5);
+	border-radius: 8px;
+	padding: 15px 15px 5px 15px;
+	box-shadow: 0 5px 40px rgba(0,0,0,0.8);
+	background-image: url(https://images3.pixlis.com/background-image-plaid-checkered-seamless-tileable-cowboy-sunset-orange-235qfz.png);
+	background-size: cover;
+ 	background-repeat: no-repeat;
 }
 .biografia
 {
-	padding: 50px 200px;
+	
+	background: rgba(200,100,80,0.4);
+	border-radius: 8px;
+	padding: 15px 200px 5px 200px;
+	box-shadow: 0 5px 40px rgba(0,0,0,0.2);
+	color: white;
 
 }
 .bio_content
 {
 	overflow: auto;
+	padding:20px;
+	border: 2px dashed black;
+	background: rgba(120,100,120,0.8);
+	border-radius: 8px;
+	box-shadow: 0 5px 40px rgba(0,0,0,0.2);
+	
 }
 .biografia h3 , .favoritos h3 
 {
 	text-align: center;
-	color: #2EBCC5;
+	color: #4F241E;
 	font-size: 30px;
 }
+
+
 .biografia img
 {
 	width: 180px;
 	height: 180px;
 	margin-right: 20px;
 	float: left;
-	border:2px outset #A205B4;
+	
 	padding: 3px;
  }
 .favoritos 
 {
 	clear: both;
+	color: white;
+	background: rgba(120,100,120,0.6);
+	border-radius: 8px;
+	box-shadow: 0 5px 40px rgba(0,0,0,0.2);
 	text-align: center;
+}
+.favo_content
+{
+	overflow: auto;
+	padding:10px;
+
 }
 .favoritos li  , .redes li
 {
@@ -102,7 +140,7 @@ section
 
 .favoritos small
 {
-	color: #A849B2;
+	color: white;
 	font-size: 20px;
 }
 
@@ -110,16 +148,20 @@ section
 {
 	width: 200px;
 	height: 200px;
-	border: 5px solid #2EBCC5;
+	border: 5px solid #4F241E;
     padding: 5px;
 	border-radius: 100%;
 	margin:10px;	
 }
 footer {
 
-	background-image: url(../images/tile2.png);
-	padding: 30px;
-	font-family: 'Clicker Script', cursive;
+  background-color:#ccc;
+  background-image: -moz-linear-gradient(top, #333, #ccc);
+  background-image: -webkit-gradient(linear, left top,left bottom, from(#333), to(#ccc));
+  background-image: linear-gradient(top, #333, #ccc);
+  padding: 10px;
+  font-family: 'Clicker Script', cursive;
+
 }
 .redes
 {
@@ -131,6 +173,6 @@ footer {
 }
 .redes p
 {
-	color: #2EBCC5;
-	font-size: 30px;
+	color: white;
+	font-size: 35px;
 }
